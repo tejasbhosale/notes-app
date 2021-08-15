@@ -1,10 +1,46 @@
 .App {
-  text-align: center;
+  padding:30px;
+}
+.search-box {
+  margin: auto;
+  display: block;
+  padding: 7px 20px;
+  font-size: 18px;
+  line-height: 1;
+  outline: none;
+  border-radius: 17px;
+  border: 1px solid rgba(0,0,0,0.24);
+  margin:10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textarea-notes{
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  padding: 7px 20px;
+  font-size: 18px;
+}
+.list-container{
+  padding: 7px 15px;
+}
+.list-item{
+  line-height: 2;
+  background-color:#FFB6C1;
+  font-weight: bold;
+  color:rgb(31, 45, 61);
+  padding-left: 10px;
+  height:120px;
+  width:200px;
+  overflow:auto;
+  display: inline-block;
+  margin: 10px 10px 10px 0px;
+}
+.btn {
+  margin: 10px;
+}
+.delete-icon{
+  float:right;
+  margin: 7px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
