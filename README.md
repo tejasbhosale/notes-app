@@ -1,5 +1,5 @@
 
-### Here is the link for hosted nontes-app:
+### Here is the link for hosted notes-app build on React-redux:
 http://notes-app-redux.s3-website-us-west-2.amazonaws.com/
 
 ### Notes app
