@@ -5,7 +5,8 @@ export const addNote = text => ({
   type: actions.ADD_NOTE,
   payload:{
     id: ++id,
-    text
+    text,
+    searchKey:""
   }
 });
 

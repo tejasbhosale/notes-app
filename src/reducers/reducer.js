@@ -13,13 +13,16 @@ const reducer = (state = [initialState], action) => {
           ...state,
           {
             id: action.payload.id,
-            text: action.payload.text
+            text: action.payload.text,
+            searchKey:''
           }
         ]
       case actions.DELETE_NOTE:
         return state.filter(note => note.id!==action.payload.id);
 
       case actions.SEARCH_NOTE:
+        if(!state.length) return;
+        
         state[0].searchKey = action.payload.searchKey;
         return [
           ...state
