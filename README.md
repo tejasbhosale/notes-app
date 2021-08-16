@@ -1,6 +1,6 @@
 
 ### Here is the link for hosted notes-app build on React-redux:
-http://notes-app-redux.s3-website-us-west-2.amazonaws.com/
+http://notes-app-redux.s3-website-us-west-2.amazonaws.com
 
 ### Notes app
 Built in React with hooks and Using Redux for state management
