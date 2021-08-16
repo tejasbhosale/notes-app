@@ -27,7 +27,6 @@ const reducer = (state = [initialState], action) => {
       
       case actions.UPDATE_NOTE:
         return state.map((updatedNote) => {
-          console.log(updatedNote);
           if(updatedNote.id === action.payload.id){
             updatedNote.text=action.payload.text;
             return updatedNote;

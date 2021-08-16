@@ -1,6 +1,6 @@
 import * as actions from './actionTypes';
-
 let id = 0;
+
 export const addNote = text => ({
   type: actions.ADD_NOTE,
   payload:{

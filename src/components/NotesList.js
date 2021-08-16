@@ -9,10 +9,9 @@ const NotesList = (props) => {
     const handleDelete = (id) => {
         props.delete(id);
     }
-
     return (
         <div className="list-container">
-            {props.notesList.filter((list) => list.text.toUpperCase().includes(props.notesList[0].searchKey.toUpperCase())).map((note, i) => {
+            {props.notesList.filter((list) => list.text.includes(props.notesList[0].searchKey)).map((note, i) => {
                 return <div key={i} className="list-item">
                     <FontAwesomeIcon key={i} className="delete-icon" onClick={() => handleDelete(note.id)} icon={faTrash} />
                     <EditNotes edit={note}/>

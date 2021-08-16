@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Button from '@material-ui/core/Button';
 import { connect } from 'react-redux';
-import { addNote, deleteNote } from '../actions';
+import { addNote } from '../actions';
 
 const AddNotes = ({ dispatch }) => {
     const [inputText, setInputText] = useState();
