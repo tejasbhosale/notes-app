@@ -28,47 +28,39 @@
   background-color:#FFB6C1;
   font-weight: bold;
   color:rgb(31, 45, 61);
-  padding-left: 10px;
-  height:120px;
-  width:200px;
+  padding: 10px;
+  height:150px;
+  width:230px;
   overflow:auto;
   display: inline-block;
   margin: 10px 10px 10px 0px;
+  box-shadow: 5px 6px 6px #F08080;
 }
 .btn {
   margin: 10px;
 }
+.btn-edit{
+  float: right;
+  margin: 7px;
+  cursor: pointer;
+}
+.btn-update{
+  float: right;
+  margin-right: 4px;
+  cursor: pointer;
+}
 .delete-icon{
   float:right;
   margin: 7px;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hide{
+  display: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.show{
+  display: block;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-edit{
+width: 70%;
+margin: 7px;
 }

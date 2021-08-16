@@ -14,7 +14,6 @@ const AddNotes = ({ dispatch }) => {
     }
     const handleInputChange = (event) => {
         setInputText(event.target.value);
-        event.preventDefault();
     }
 
     return (

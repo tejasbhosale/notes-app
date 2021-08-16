@@ -22,3 +22,11 @@ export const searchNote = searchKey => ({
         searchKey : searchKey
     }
 });
+
+export const updateNote = updatedNote => ({
+    type: actions.UPDATE_NOTE,
+    payload:{
+        id: updatedNote.id,
+        text: updatedNote.text
+      }
+});
